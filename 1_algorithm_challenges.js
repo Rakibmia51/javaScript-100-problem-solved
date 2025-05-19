@@ -7,16 +7,16 @@
 
 // Code Solution: 
 
-// let arrayReplace = function(inputArray, elementToReplace, subtractionElem){
+let arrayReplace = function(inputArray, elementToReplace, subtractionElem){
     
-//     inputArray.forEach((element, index) => {
-//        if(element === elementToReplace){
-//         inputArray[index] = subtractionElem
-//        }
-//     });
-//     console.log(inputArray)
-// }
+    inputArray.forEach((element, index) => {
+       if(element === elementToReplace){
+        inputArray[index] = subtractionElem
+       }
+    });
+    console.log(inputArray)
+}
 
-// arrayReplace([1,2,1],1,3);
+arrayReplace([1,2,1],1,3);
 
 
